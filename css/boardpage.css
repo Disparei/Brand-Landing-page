@@ -1,0 +1,96 @@
+html {
+	padding: 0;
+	margin: 0;
+}
+
+.home {
+	text-align: centrer;
+}
+
+.home header {
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.home header img { 
+	max-width: 300px;
+	width: 85%;
+}
+
+.home nav {
+	width: 90%;
+	max-width: 800px;
+	margin: 60px auto 0 auto;
+	text-align: center;
+}
+
+.home nav ul {
+	padding: 0;
+}
+
+.home nav li { 
+	list-style: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+
+.home nav li:before { 
+	content: '.';
+	background: #000;
+	color: transparent;
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin: 15px 12px 0 0;
+	height: 5px;
+	width:30px;
+	transition: all .45s;
+	-webkit-transition: all .45s;
+}
+
+.home nav li:after { 
+	content: '.';
+	background: #000;
+	color: transparent;
+	display: inline-block;
+	position: relative;
+	float: right;
+	margin: 15px 0 0 12px;
+	height: 5px;
+	width:30px;
+	transition: all .45s;
+	-webkit-transition: all .45s;
+}
+
+.home nav li:hover:before { 
+	margin: 13px 12px 0 0;
+	height: 10px;
+}
+
+.home nav li:hover:after { 
+	margin: 13px 0 0 12px;
+	height: 10px;
+}
+
+.home nav li a { 
+	font-family: Raleway, sans-serif;
+	text-decoration: none;
+	font-weight: 700;
+	color: #555;
+	font-size: 28px;
+	display: inline-block;
+}
+
+/*------------------------*/
+
+.brandpage {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.brandpage img {
+	width:100%;
+	max-width:1000px;
+}
